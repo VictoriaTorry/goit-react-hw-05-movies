@@ -1,0 +1,59 @@
+.movieCardWrapper {
+  padding: 15px;
+  box-shadow: 0px 0px 3px #181629;
+}
+
+.movieCardInfo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.movieCardImg {
+  margin-right: 50px;
+}
+
+.movieCardImg img {
+  max-width: 350px;
+  height: auto;
+}
+
+.movieCardContext h3 {
+  text-transform: uppercase;
+}
+
+.movieCardGenre {
+  display: inline-block;
+  background-color: #dbdef7;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.movieCardMoreInfo {
+  border-top: 2px dotted #858297;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.movieCardMoreInfoTitle {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.movieCardMoreInfoLink {
+  display: inline-block;
+  margin-right: 15px;
+  min-width: 70px;
+  background-color: #181629;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.movieCardMoreInfo a:hover,
+.movieCardMoreInfo a:focus {
+  background-color: #a9b2ff;
+  color: #181629;
+}

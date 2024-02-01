@@ -1,0 +1,33 @@
+.movieListLink {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieListImg {
+  width: auto;
+  height: 430px;
+  transition: transform 0.2s linear;
+  object-fit: cover;
+}
+
+.movieListImg:hover {
+  transform: scale(1.03);
+}
+
+.title {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #5c5b5b;
+  font-weight: 700;
+  transition: color 0.2s linear, text-decoration 0.2s linear;
+}
+
+.title:hover,
+.title:focus {
+  color: #252525;
+  text-decoration: underline;
+}

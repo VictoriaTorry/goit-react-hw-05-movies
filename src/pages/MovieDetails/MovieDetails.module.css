@@ -1,0 +1,13 @@
+.main {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.goBack {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}

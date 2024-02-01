@@ -1,0 +1,28 @@
+.castItem {
+  width: 23%;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px #555;
+  margin-bottom: 30px;
+  font-size: 0px;
+}
+
+.castImg {
+  width: 255px;
+  height: 375px;
+  object-fit: cover;
+}
+
+.castTitlesBlock {
+  padding: 10px;
+}
+
+.castTitle,
+.castCharacter {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.castTitle {
+  font-weight: 700;
+}

@@ -1,0 +1,53 @@
+.form {
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.searchFormInput {
+  padding: 15px 40px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 50%;
+  max-width: 700px;
+  border: 2px solid #b8b8b9;
+  transition: border-color 0.2s linear;
+}
+
+.searchFormInput:hover,
+.searchFormInput:focus {
+  border-color: #8f8f91;
+}
+
+.searchFormInput::placeholder {
+  font-size: 16px;
+}
+
+.button {
+  padding: 15px 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 15%;
+  min-width: 50px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 2px solid #b8b8b9;
+  background-color: #b8b8b9;
+  color: #fff;
+  transition: background-color 0.2s linear, border-color 0.2s linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #9b9b9c;
+  border-color: #9b9b9c;
+}
+
+.button:hover,
+.button:focus,
+.searchFormInput:hover,
+.searchFormInput:focus {
+  outline: none;
+}
